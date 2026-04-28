@@ -1,0 +1,71 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "admin123"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Комп'ютери та ноутбуки",
+      "path": "computers-notebooks",
+      "date": "27.04.2026"
+    },
+    {
+      "id": 2,
+      "name": "Смартфони, ТВ і Електроніка",
+      "path": "telefony-tv-i-ehlektronika",
+      "date": "27.04.2026"
+    },
+    {
+      "id": 3,
+      "name": "Товари для геймерів",
+      "path": "game-zone",
+      "date": "27.04.2026"
+    },
+    {
+      "id": 4,
+      "name": "Побутова техніка",
+      "path": "bt",
+      "date": "27.04.2026"
+    },
+    {
+      "name": "Товари для дому",
+      "path": "tovary-dlya-doma",
+      "date": "27.04.2026",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "price": 699.99,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "price": 999.99,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Novel",
+      "price": 19.99,
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "name": "T-Shirt",
+      "price": 14.99,
+      "categoryId": 3
+    }
+  ]
+}

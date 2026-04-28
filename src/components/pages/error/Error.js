@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 const Error = () => {
+    document.title = "404 Error - Page Not Found";
     return (
         <div className="flex flex-col items-center justify-center text-sm h-[400px]">
             <p className="font-medium text-lg text-indigo-500">404 Error</p>

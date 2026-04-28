@@ -1,4 +1,8 @@
+
 const Home = () => {
+
+    document.title = "Домашня сторінка - New Magazine";
+    
     return (
         <div className="w-full">
             <h1 className="text-3xl font-bold text-gray-800">Home Page</h1>
