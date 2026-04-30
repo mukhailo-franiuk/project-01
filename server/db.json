@@ -13,59 +13,40 @@
   "categories": [
     {
       "id": 1,
-      "name": "Комп'ютери та ноутбуки",
-      "path": "computers-notebooks",
+      "name": "Samsung",
+      "path": "brand-samsung",
       "date": "27.04.2026"
     },
     {
       "id": 2,
-      "name": "Смартфони, ТВ і Електроніка",
-      "path": "telefony-tv-i-ehlektronika",
+      "name": "iPhone",
+      "path": "brand-aple",
       "date": "27.04.2026"
     },
     {
       "id": 3,
-      "name": "Товари для геймерів",
-      "path": "game-zone",
+      "name": "Realme",
+      "path": "brand-realme",
       "date": "27.04.2026"
-    },
-    {
-      "id": 4,
-      "name": "Побутова техніка",
-      "path": "bt",
-      "date": "27.04.2026"
-    },
-    {
-      "name": "Товари для дому",
-      "path": "tovary-dlya-doma",
-      "date": "27.04.2026",
-      "id": 5
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Smartphone",
-      "price": 699.99,
+      "name": "Galaxy A37",
+      "description": "Смартфон Samsung Galaxy A37 A376B 8/256GB Awesome Graygreen (SM-A376BDGGEUC)",
+      "price": "₴ 20 699",
+      "status": "new",
+      "likes": 0,
+      "rating": 5,
+      "imagePath": [
+        "https://i.citrus.world/imgcache/size_800/uploads/shop/c/a/cafd3d3f76da7cb8d9db5ee12c29f506.webp",
+        "https://i.citrus.world/imgcache/size_800/uploads/shop/c/d/cde6f8bb6aba52e86530190264742170.webp",
+        "https://i.citrus.world/imgcache/size_800/uploads/shop/9/9/99d54e36fb6f882c4fa0e21635f7fcfb.webp",
+        "https://i.citrus.world/imgcache/size_800/uploads/shop/a/8/a83e249430ac56cc1251e2f77d019631.webp"
+      ],
+      "categoryProduct" : [""],
       "categoryId": 1
-    },
-    {
-      "id": 2,
-      "name": "Laptop",
-      "price": 999.99,
-      "categoryId": 1
-    },
-    {
-      "id": 3,
-      "name": "Novel",
-      "price": 19.99,
-      "categoryId": 2
-    },
-    {
-      "id": 4,
-      "name": "T-Shirt",
-      "price": 14.99,
-      "categoryId": 3
     }
   ]
 }
